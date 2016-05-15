@@ -76,7 +76,9 @@ my $alignio_fmt = "emboss";
 my $inaln;
 my ($TS, $TE); 
 
-for $K (0..1) {
+
+my $ENDRANGE=1;
+for $K (0..$ENDRANGE) {
     $water->run({-asequence => $T[$K], -bsequence => \@Q, -gapopen => '10.0', -gapextend => '2.5', -outfile => $OFNS[$K]});
 
     # OK, let's analyze that alignment. It's been written out ot file.
@@ -154,7 +156,9 @@ for $K (0..1) {
     for($I=0; $I<$TSZ; $I++) {
         printf "%d\t%d\t%4.1f\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%d\t%3.1f\n", $TAAS[$I][0], $TAAS[$I][1], $TAAS[$I][2], $TAAS[$I][3], $TAAS[$I][4], $TAAS[$I][5], $TAAS[$I][6], $TAAS[$I][7], $TAAS[$I][8], $TAAS[$I][9], $TAAS[$I][10], $TAAS[$I][11], $TAAS[$I][12], $TAAS[$I][13], $TAAS[$I][14];
     }
-    print "Key: SFI src file idx, ALEN aln length, SCORE aln score, IDEN identical bases, IPT percent iden, SIM similar bases, GAPS num gaps, GPT gap percent\n";
-    print "\tTSC target start query, TEC target end coord, PET percent of target, QSC Query start coord, QEC query end coord, QLN query aln length, PEQ percent of query\n";
     printf "Score for %d query sequences (total %d bp) against %s target (%d bp) = %4.2f\n", $NQS, $TQL, $FRSTR[$K%2], $TSL, $TSC;
+    if($K==$ENDRANGE) {
+        print "Key: SFI src file idx, ALEN aln length, SCORE aln score, IDEN identical bases, IPT percent iden, SIM similar bases, GAPS num gaps, GPT gap percent\n";
+        print "\tTSC target start query, TEC target end coord, PET percent of target, QSC Query start coord, QEC query end coord, QLN query aln length, PEQ percent of query\n";
+    }
 }
