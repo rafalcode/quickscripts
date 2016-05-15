@@ -3,7 +3,22 @@
 # used for finding gene in Anguilla scaffolds.
 use strict;
 use warnings;
-# Argument accounting ... say how many the scrit should have.
+
+# subroutines with prototypes up first
+sub stpt($;$@) {
+    my($TSZ, $taref)= @_;
+    my $I;
+    my @SEA; # start end array
+    for($I=0; $I<$TSZ; $I++) {
+        push @SEA, ($taref->[$I][8], $taref->[$I][9]);
+    }
+    for($I=0; $I<$TSZ; $I++) {
+        printf "%d->%d ", $SEA[2*$I], $SEA[2*$I+1];
+    }
+    print "\n";
+}
+
+# Argument accounting ... say how many the script should have.
 if(scalar @ARGV != 2) {
     print "Sorry, this script requires a target sequence first and then a multi sequence file of query sequences\n";
     die;
@@ -149,8 +164,8 @@ for $K (0..$ENDRANGE) {
     $TSZ=scalar @TAAS;
     # print header
     for($J=0; $J<$R1Z; $J++) {
-        printf "%s", $TAH[$J];
-        ($J==$R1Z-1)? print "\n" : print "\t";
+        # printf "%s", $TAH[$J];
+        # ($J==$R1Z-1)? print "\n" : print "\t";
     }
     # now print rest of rows.
     for($I=0; $I<$TSZ; $I++) {
@@ -161,4 +176,6 @@ for $K (0..$ENDRANGE) {
         print "Key: SFI src file idx, ALEN aln length, SCORE aln score, IDEN identical bases, IPT percent iden, SIM similar bases, GAPS num gaps, GPT gap percent\n";
         print "\tTSC target start query, TEC target end coord, PET percent of target, QSC Query start coord, QEC query end coord, QLN query aln length, PEQ percent of query\n";
     }
+    stpt($TSZ, \@TAAS);
 }
+
