@@ -134,7 +134,7 @@ for $K (0..1) {
         # for reverse strand we want coords converted to forward strand.
         $TS=($K%2)? $T[$K]->length() - $B[$J]+1 : $B[$J];
         $TE=($K%2)? $T[$K]->length() - $B[$J+1]+1 : $B[$J+1];
-        push @TAA, [$ACOU+1, $aln->length(), $aln->score(), $ISG[$I], 100*$ISG[$I]/$aln->length(), $ISG[$I+1], $ISG[$I+2], 100*$ISG[$I+2]/$aln->length(), $TS, $TE, $PET, $B[$J+2], $B[$J+3], $Q[$ACOU]->length(), $PEQ];
+        push @TAA, [$ACOU+1, $aln->length(), $aln->score(), $ISG[$I], 100*$ISG[$I]/$aln->length(), $ISG[$I+1], $ISG[$I+2], 100*$ISG[$I+2]/$aln->length(), ($K%2)? $TE : $TS, ($K%2)? $TS : $TE, $PET, $B[$J+2], $B[$J+3], $Q[$ACOU]->length(), $PEQ];
         $ACOU++;
         $TSC += $aln->score();
     }
@@ -154,5 +154,7 @@ for $K (0..1) {
     for($I=0; $I<$TSZ; $I++) {
         printf "%d\t%d\t%4.1f\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%d\t%3.1f\n", $TAAS[$I][0], $TAAS[$I][1], $TAAS[$I][2], $TAAS[$I][3], $TAAS[$I][4], $TAAS[$I][5], $TAAS[$I][6], $TAAS[$I][7], $TAAS[$I][8], $TAAS[$I][9], $TAAS[$I][10], $TAAS[$I][11], $TAAS[$I][12], $TAAS[$I][13], $TAAS[$I][14];
     }
+    print "Key: SFI src file idx, ALEN aln length, SCORE aln score, IDEN identical bases, IPT percent iden, SIM similar bases, GAPS num gaps, GPT gap percent\n";
+    print "\tTSC target start query, TEC target end coord, PET percent of target, QSC Query start coord, QEC query end coord, QLN query aln length, PEQ percent of query\n";
     printf "Score for %d query sequences (total %d bp) against %s target (%d bp) = %4.2f\n", $NQS, $TQL, $FRSTR[$K%2], $TSL, $TSC;
 }
