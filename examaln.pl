@@ -5,17 +5,23 @@ use strict;
 use warnings;
 
 # subroutines with prototypes up first
+# # function to print Exon separation string in terms of qury string, not alignment strinh, which means gaps in target not accounted for.
 sub stpt($;$@) {
     my($TSZ, $taref)= @_;
-    my $I;
+    my ($I, $J);
     my @SEA; # start end array
     for($I=0; $I<$TSZ; $I++) {
         push @SEA, ($taref->[$I][8], $taref->[$I][9]);
     }
+    print "Exon separation string:\n";
     for($I=0; $I<$TSZ; $I++) {
-        printf "%d->%d ", $SEA[2*$I], $SEA[2*$I+1];
+        $J=$I*2;
+        if($I==$TSZ-1) {
+            printf "<< e%02d:%d-%d >>\n", $I+1, $SEA[$J], $SEA[$J+1];
+        } else {
+            printf "<< e%02d:%d-%d >> %d ", $I+1, $SEA[$J], $SEA[$J+1], $SEA[$J+2] - $SEA[$J+1];
+        }
     }
-    print "\n";
 }
 
 # Argument accounting ... say how many the script should have.
@@ -30,15 +36,15 @@ my $qin = Bio::SeqIO->new(-file => $ARGV[1], '-format' => 'Fasta');
 
 # prepare output files here:
 my ($I, $J);
-my @OFNS;
-for $I (0..1) { # (..) idiom actually perl's range operator
+my @OFNS; # Mnemonic Output File NameS
+for $I (0..1) { # (..) is actually perl's range operator.
     push @OFNS, $ARGV[0];
     $OFNS[$I]=~ s/(.+)\..+/$1\.out$I/;
 }
 #
-my $tcou=0; # target coutn ... we should be secretly prepared for avng more than one
-my $qcou=0;
-my(@T, @Q); # target and query. Query can be multisequence, while we expect target to be a single sequence, often much bigger than the individual query sequences.
+my $tcou=0; # target count ... we should be secretly prepared for having more than one, though in theory eeach context should only have one target, for the sake of semantics
+my $qcou=0; # query count.
+my(@T, @Q); # target and query arrays. Query can be multisequence, while we expect target to be a single sequence, often much bigger than the individual query sequences.
 
 # Look at target sequence file
 while ( my $sq = $tin->next_seq() ) {
@@ -90,7 +96,7 @@ my @FRSTR=("forward-sense", "reverse-sense");
 my $alignio_fmt = "emboss";
 my $inaln;
 my ($TS, $TE); 
-
+my $EXN; # exon name
 
 my $ENDRANGE=1;
 for $K (0..$ENDRANGE) {
@@ -151,7 +157,8 @@ for $K (0..$ENDRANGE) {
         # for reverse strand we want coords converted to forward strand.
         $TS=($K%2)? $T[$K]->length() - $B[$J]+1 : $B[$J];
         $TE=($K%2)? $T[$K]->length() - $B[$J+1]+1 : $B[$J+1];
-        push @TAA, [$ACOU+1, $aln->length(), $aln->score(), $ISG[$I], 100*$ISG[$I]/$aln->length(), $ISG[$I+1], $ISG[$I+2], 100*$ISG[$I+2]/$aln->length(), ($K%2)? $TE : $TS, ($K%2)? $TS : $TE, $PET, $B[$J+2], $B[$J+3], $Q[$ACOU]->length(), $PEQ];
+        $EXN=sprintf("e%02d", $ACOU+1);
+        push @TAA, [$EXN, $aln->length(), $aln->score(), $ISG[$I], 100*$ISG[$I]/$aln->length(), $ISG[$I+1], $ISG[$I+2], 100*$ISG[$I+2]/$aln->length(), ($K%2)? $TE : $TS, ($K%2)? $TS : $TE, $PET, $B[$J+2], $B[$J+3], $Q[$ACOU]->length(), $PEQ];
         $ACOU++;
         $TSC += $aln->score();
     }
@@ -169,7 +176,7 @@ for $K (0..$ENDRANGE) {
     }
     # now print rest of rows.
     for($I=0; $I<$TSZ; $I++) {
-        printf "%d\t%d\t%4.1f\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%d\t%3.1f\n", $TAAS[$I][0], $TAAS[$I][1], $TAAS[$I][2], $TAAS[$I][3], $TAAS[$I][4], $TAAS[$I][5], $TAAS[$I][6], $TAAS[$I][7], $TAAS[$I][8], $TAAS[$I][9], $TAAS[$I][10], $TAAS[$I][11], $TAAS[$I][12], $TAAS[$I][13], $TAAS[$I][14];
+        printf "%s\t%d\t%4.1f\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%d\t%3.1f\n", $TAAS[$I][0], $TAAS[$I][1], $TAAS[$I][2], $TAAS[$I][3], $TAAS[$I][4], $TAAS[$I][5], $TAAS[$I][6], $TAAS[$I][7], $TAAS[$I][8], $TAAS[$I][9], $TAAS[$I][10], $TAAS[$I][11], $TAAS[$I][12], $TAAS[$I][13], $TAAS[$I][14];
     }
     printf "Score for %d query sequences (total %d bp) against %s target (%d bp) = %4.2f\n", $NQS, $TQL, $FRSTR[$K%2], $TSL, $TSC;
     if($K==$ENDRANGE) {
