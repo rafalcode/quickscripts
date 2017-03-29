@@ -1,0 +1,1773 @@
+########################################
+# Program: needle
+# Rundate: Thu 30 Mar 2017 00:23:44
+# Commandline: needle
+#    -asequence /tmp/DV0l1KD4fI/xZtuNzDe1_
+#    -outfile rpob.out0
+#    -gapopen 10.0
+#    -gapextend 2.5
+#    -bsequence /tmp/DV0l1KD4fI/WQDj8MaIwJ
+#    -auto
+# Align_format: srspair
+# Report_file: rpob.out0
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-6-MK_rrdr_FWD-240317-09-06
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 402
+# Identity:     108/402 (26.9%)
+# Similarity:   108/402 (26.9%)
+# Gaps:         270/402 (67.2%)
+# Score: 344.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-6-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-6-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-6-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                                   |..|
+pc5-6-MK_rrdr      1 ----------------------------------------------CCTT      4
+
+AY544936.1       201 GTCGGG-TCTG-ACC-CACAAGCGCCGTC-TGTCGGCGCTGGGCCCCGGC    246
+                     ..|||| .||| ||| |||||||||||.| |||||||||||||||||||.
+pc5-6-MK_rrdr      5 CCCGGGCCCTGCACCTCACAAGCGCCGACGTGTCGGCGCTGGGCCCCGGG     54
+
+AY544936.1       247 GGCCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAG    296
+                     |||||||||||..|| ||||||.|||.||||..|| || .||| |.||||
+pc5-6-MK_rrdr     55 GGCCTGTCCCGAAAG-GTGCCGTCCTTGAGGCCCG-GA-TTGC-CCCCAG    100
+
+AY544936.1       297 CCACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCG    346
+                     |||.|| ||..|.||||||||.||||| .|||||...|            
+pc5-6-MK_rrdr    101 CCATTA-GGTGGGATGTGCCCAATCGA-TCCCCGTTGG------------    136
+
+AY544936.1       347 GCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTC    396
+                                                                       
+pc5-6-MK_rrdr    136 --------------------------------------------------    136
+
+AY544936.1       397 AT    398
+                       
+pc5-6-MK_rrdr    136 --    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-2-MK_rrdr_FWD-240317-09-20
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 401
+# Identity:      86/401 (21.4%)
+# Similarity:    86/401 (21.4%)
+# Gaps:         267/401 (66.6%)
+# Score: 185.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+LR-2-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+LR-2-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+LR-2-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                            .|.||...|.|
+LR-2-MK_rrdr_      1 ---------------------------------------TAAAAATTGTT     11
+
+AY544936.1       201 GTCGGGTCT-GACCCACAAG-CGCCGTCTGTCGGCGCTGGGCCCCGGCGG    248
+                     ..|||..|| ||..||.||| .||||.||||.||.|||||..|||||.||
+LR-2-MK_rrdr_     12 CCCGGTGCTCGAGGCAGAAGAGGCCGACTGTGGGAGCTGGTTCCCGGAGG     61
+
+AY544936.1       249 CCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACT-CCAGC    297
+                     ..|||||.|..||||||.........||||.|||||.|||  .| ..||.
+LR-2-MK_rrdr_     62 TTTGTCCTGAAAGCGTGTTTTAAATAAGGTCCGCGATGTG--GTGGGAGG    109
+
+AY544936.1       298 CACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGG    347
+                     .||||.|||| |.||.|.|||||||..|.                     
+LR-2-MK_rrdr_    110 GACTAAGGCC-CCTGAGTCCGATCGTTAA---------------------    137
+
+AY544936.1       348 CCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCA    397
+                                                                       
+LR-2-MK_rrdr_    137 --------------------------------------------------    137
+
+AY544936.1       398 T    398
+                      
+LR-2-MK_rrdr_    137 -    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-8-MK_rrdr_FWD-240317-09-08
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 404
+# Identity:     111/404 (27.5%)
+# Similarity:   111/404 (27.5%)
+# Gaps:         268/404 (66.3%)
+# Score: 375.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-8-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-8-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-8-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                                      |
+pc5-8-MK_rrdr      1 -------------------------------------------------T      1
+
+AY544936.1       201 GTCGG-G-TC-TGACCCAC-AAGCGCC-GTCTGTCGGCGCTGGGCCCCGG    245
+                     ..||| | || |||||||| ||||||| .|.||||||...||||||||||
+pc5-8-MK_rrdr      2 CACGGTGCTCTTGACCCACAAAGCGCCAATTTGTCGGATTTGGGCCCCGG     51
+
+AY544936.1       246 CGG-CCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCC    294
+                     .|| |.|||||||..||||.||||||||.|||| .||.||.|.||||.||
+pc5-8-MK_rrdr     52 GGGTCTTGTCCCGAAAGCGGGCCGGCCTTGAGG-CCGGGAGGGGCACCCC    100
+
+AY544936.1       295 AGCCACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACAT    344
+                     ||||..|| |||||.||||||||.||||||||||||.||||..       
+pc5-8-MK_rrdr    101 AGCCTTTA-GGCCGGATGTGCCCAATCGAGACCCCGAAAGGTA-------    142
+
+AY544936.1       345 CGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGT    394
+                                                                       
+pc5-8-MK_rrdr    142 --------------------------------------------------    142
+
+AY544936.1       395 TCAT    398
+                         
+pc5-8-MK_rrdr    142 ----    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-5-MK_rrdr_FWD-240317-09-05
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 404
+# Identity:     101/404 (25.0%)
+# Similarity:   101/404 (25.0%)
+# Gaps:         267/404 (66.1%)
+# Score: 251.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-5-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-5-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-5-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                             ....|||.| 
+pc5-5-MK_rrdr      1 ----------------------------------------TTTTCCCCC-      9
+
+AY544936.1       201 GTCGGGTCT-GACCCACAAGCGCC--GTCTGTCGGCGC-TGGGCCCCGGC    246
+                       |||.||| ||||||.||| |||  ..||||||| || ||||||||||.
+pc5-5-MK_rrdr     10 --CGGCTCTAGACCCAAAAG-GCCCACACTGTCGG-GCTTGGGCCCCGGG     55
+
+AY544936.1       247 GGCCTGTCCCGTGAGCGTGCCGGCC--TCGAGGTTCGCGACGTGCACTCC    294
+                     |||.|..|||..|||.|.||| |||  |.|||....|.||.|.|| |.|.
+pc5-5-MK_rrdr     56 GGCTTTGCCCAAGAGGGGGCC-GCCTTTTGAGACCGGGGAGGGGC-CCCA    103
+
+AY544936.1       295 AGCCACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACAT    344
+                     |||| .||.||..|.|||||.||.||.||.|||||||||||         
+pc5-5-MK_rrdr    104 AGCC-TTAGGGGGGAATGTGTCCAATAGAAACCCCGGAAGG---------    143
+
+AY544936.1       345 CGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGT    394
+                                                                       
+pc5-5-MK_rrdr    143 --------------------------------------------------    143
+
+AY544936.1       395 TCAT    398
+                         
+pc5-5-MK_rrdr    143 ----    143
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: ISD_1-MK_rrdr_FWD-240317-09-15
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 406
+# Identity:     100/406 (24.6%)
+# Similarity:   100/406 (24.6%)
+# Gaps:         270/406 (66.5%)
+# Score: 191.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+ISD_1-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+ISD_1-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+ISD_1-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCC--G    198
+                                                         ||.|..|||||  .
+ISD_1-MK_rrdr      1 ------------------------------------CAAATTAACCCATA     14
+
+AY544936.1       199 CTGTCGGGTCTGA-C-CCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGC    246
+                     .|.||.|| ||.| | |.||.||.||...||||.|| |.||||||||||.
+ISD_1-MK_rrdr     15 ATCTCCGG-CTCATCACTACTAGAGCTAACTGTAGG-GTTGGGCCCCGGG     62
+
+AY544936.1       247 GGCCTGTCCCGTGAGCGTGCCGGCCTC-GAGGTTCGCGACGTGCACTCCA    295
+                     |||| |.||||.|| .| |.|.|.||| ||||..|| ||...|| |.|||
+ISD_1-MK_rrdr     63 GGCC-GGCCCGAGA-AG-GGCTGTCTCAGAGGCCCG-GAAAGGC-CCCCA    107
+
+AY544936.1       296 GCC--ACTACGGCCGCATGTGCCCGATCGAGACCCCGGA-AGGCCCGAAC    342
+                     |||  |.|.||.||    ||||||.|..|.|||||  || |||       
+ISD_1-MK_rrdr    108 GCCTTATTCCGTCC----GTGCCCAAAAGGGACCC--GATAGG-------    144
+
+AY544936.1       343 ATCGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGG    392
+                                                                       
+ISD_1-MK_rrdr    144 --------------------------------------------------    144
+
+AY544936.1       393 GTTCAT    398
+                           
+ISD_1-MK_rrdr    144 ------    144
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: m._komo_2-MK_rrdr_FWD-240317-09-14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 406
+# Identity:     109/406 (26.8%)
+# Similarity:   109/406 (26.8%)
+# Gaps:         269/406 (66.3%)
+# Score: 330.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+m._komo_2-MK_      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+m._komo_2-MK_      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+m._komo_2-MK_      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCG--    198
+                                                               .||.||  
+m._komo_2-MK_      1 ------------------------------------------GACTCGGT      8
+
+AY544936.1       199 CTGT----CGGGTCT-GACCCACAAGCGCCGTC-TGTCGGCGCTGGGCCC    242
+                     ||.|    |||.||| ||||.|||||||||..| |||||| |.|||||||
+m._komo_2-MK_      9 CTTTTCCGCGGCTCTAGACCTACAAGCGCCTACGTGTCGG-GTTGGGCCC     57
+
+AY544936.1       243 CGGCGGCCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACT    292
+                     ||| ||..||||||..|||.||.....|||.|||||.||||  |.|..|.
+m._komo_2-MK_     58 CGG-GGGTTGTCCCAAGAGGGTTTTTCCCTTGAGGTCCGCG--GGGGTCC    104
+
+AY544936.1       293 CCAGCCACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAAC    342
+                     |||||| .|| |||||.|||||||||||||||||||||.|.||       
+m._komo_2-MK_    105 CCAGCC-TTA-GGCCGGATGTGCCCGATCGAGACCCCGTAGGG-------    145
+
+AY544936.1       343 ATCGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGG    392
+                                                                       
+m._komo_2-MK_    145 --------------------------------------------------    145
+
+AY544936.1       393 GTTCAT    398
+                           
+m._komo_2-MK_    145 ------    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-3-MK_rrdr_FWD-240317-09-21
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 408
+# Identity:      98/408 (24.0%)
+# Similarity:    98/408 (24.0%)
+# Gaps:         272/408 (66.7%)
+# Score: 173.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+LR-3-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+LR-3-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+LR-3-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                            ..|..||| |.
+LR-3-MK_rrdr_      1 ---------------------------------------TTCTTCCC-CC     10
+
+AY544936.1       201 GTCGGGTCTGACCCAC----AAGCGCCGTCTGT-CGGCGCTGGGCCCCGG    245
+                     | .||.|...|.||||    ||||.||..|||| ||..||||||.|||.|
+LR-3-MK_rrdr_     11 G-AGGATTCAATCCACAAAAAAGCCCCCACTGTGCGCGGCTGGGGCCCCG     59
+
+AY544936.1       246 CGGCCTGT-CCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCC    294
+                     |||.||.| |||...|||...||..||| |||| .|.|||.|.|| | ||
+LR-3-MK_rrdr_     60 CGGGCTTTCCCCAAAAGCCCCCCTCCCT-GAGG-CCCCGAAGGGC-C-CC    105
+
+AY544936.1       295 AGCCAC-TACGGCCGCATGTG-CCCGATCGAGA--CCCCGGAAGGCCCGA    340
+                     || ||| ||  ||||.|.||| |||.|  ||.|  |||||.||||.    
+LR-3-MK_rrdr_    106 AG-CACTTA--GCCGGAAGTGTCCCAA--GAAAACCCCCGAAAGGT----    146
+
+AY544936.1       341 ACATCGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTC    390
+                                                                       
+LR-3-MK_rrdr_    146 --------------------------------------------------    146
+
+AY544936.1       391 GGGTTCAT    398
+                             
+LR-3-MK_rrdr_    146 --------    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LP-22-MK_rrdr_FWD-240317-09-68
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 500
+# Identity:      31/500 ( 6.2%)
+# Similarity:    31/500 ( 6.2%)
+# Gaps:         455/500 (91.0%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+AY544936.1         0 --------------------------------------------------      0
+                                                                       
+LP-22-MK_rrdr      1 AAAACTATTTCACCAAGCCTATCCGGCCAAAGAATTTTTTTTTTTTAAAA     50
+
+AY544936.1         1 ----------------------------------------------ACGG      4
+                                                                   |.||
+LP-22-MK_rrdr     51 AATTAAACCCCCCTTTTTATTAAGTTGGCCTCCCAAAAAGAAAAATAGGG    100
+
+AY544936.1         5 -TCGGCGAGCTGATCC----A-GAACCAGATCCGCGTCGGCCTGTCCCGC     48
+                      .|.|||||  .||||    | |||..|||  .|..|| .||.||.|||.
+LP-22-MK_rrdr    101 AGCTGCGAG--AATCCCTTTATGAAATAGA--AGGATC-ACCAGTACCGG    145
+
+AY544936.1        49 ATGGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCAT     98
+                     .|                                                
+LP-22-MK_rrdr    146 TT------------------------------------------------    147
+
+AY544936.1        99 CACGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGG    148
+                                                                       
+LP-22-MK_rrdr    147 --------------------------------------------------    147
+
+AY544936.1       149 AGTTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCG    198
+                                                                       
+LP-22-MK_rrdr    147 --------------------------------------------------    147
+
+AY544936.1       199 CTGTCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGG    248
+                                                                       
+LP-22-MK_rrdr    147 --------------------------------------------------    147
+
+AY544936.1       249 CCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCC    298
+                                                                       
+LP-22-MK_rrdr    147 --------------------------------------------------    147
+
+AY544936.1       299 ACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGC    348
+                                                                       
+LP-22-MK_rrdr    147 --------------------------------------------------    147
+
+AY544936.1       349 CTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                                       
+LP-22-MK_rrdr    147 --------------------------------------------------    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-13-2-MK_rrdr_FWD-240317-09-32
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 405
+# Identity:     118/405 (29.1%)
+# Similarity:   118/405 (29.1%)
+# Gaps:         263/405 (64.9%)
+# Score: 444.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+LR-13-2-MK_rr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+LR-13-2-MK_rr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+LR-13-2-MK_rr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCC---    197
+                                                                ||||   
+LR-13-2-MK_rr      1 -------------------------------------------ACCCATA      7
+
+AY544936.1       198 --GCTGTCGGGT-CTGACCCACAAGCGCCGTCTGT-CGGCGCTGGGCCCC    243
+                       |.|.|||.|| ||||.||||||||||||.|||| ||||||||||.|||
+LR-13-2-MK_rr      8 TTGGTCTCGTGTGCTGATCCACAAGCGCCGACTGTGCGGCGCTGGGTCCC     57
+
+AY544936.1       244 GGCGGCCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTC    293
+                     |||||.|||||||| .|..|||....|||.||||..|||||||||.||.|
+LR-13-2-MK_rr     58 GGCGGTCTGTCCCG-AAAAGTGTTTTCCTTGAGGACCGCGACGTGGACCC    106
+
+AY544936.1       294 CAGCCACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACA    343
+                     |||||||||..||||.||||||||||||||||.|||||||||.       
+LR-13-2-MK_rr    107 CAGCCACTAATGCCGGATGTGCCCGATCGAGAACCCGGAAGGG-------    149
+
+AY544936.1       344 TCGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGG    393
+                                                                       
+LR-13-2-MK_rr    149 --------------------------------------------------    149
+
+AY544936.1       394 TTCAT    398
+                          
+LR-13-2-MK_rr    149 -----    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-4-MK_rrdr_FWD-240317-09-22
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 422
+# Identity:      88/422 (20.9%)
+# Similarity:    88/422 (20.9%)
+# Gaps:         296/422 (70.1%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+LR-4-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+LR-4-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+LR-4-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGAT-----CAGAACAAC    195
+                                                ||.|...||     .|.||.|||
+LR-4-MK_rrdr_      1 ---------------------------TTAAAATATAATAAAAAAAAAAC     23
+
+AY544936.1       196 C-CGCTGTC-GGGTCTGAC-CCACAAGCGC--CGTCTGTCGGCGCTGG-G    239
+                     | |..|.|| ...|||.|| ||| ||||||  ||| .|..|| |.||| .
+LR-4-MK_rrdr_     24 CACATTTTCTCCCTCTTACTCCA-AAGCGCAACGT-GGGAGG-GGTGGTT     70
+
+AY544936.1       240 CCCCGGCGGCCTG-TC----CCGTGAGCGTGCC----GGCC---TCGAGG    277
+                     |||||.||...|| ||    .||| ..|.|.||    |.||   |.|.||
+LR-4-MK_rrdr_     71 CCCCGACGTTTTGCTCAAATTCGT-TTCTTTCCTAATGTCCTTTTTGGGG    119
+
+AY544936.1       278 TTCGCGACGTGC-ACTCCAGCCACTACGGCCGCATGTGCCCGATCGAGAC    326
+                     |..||| || || |.|||     |||..||| ||.||.|           
+LR-4-MK_rrdr_    120 TGGGCG-CG-GCTAATCC-----CTAATGCC-CAAGTAC-----------    150
+
+AY544936.1       327 CCCGGAAGGCCCGAACATCGGCCTGATCGGGTCACTGTCGGTGTACGCGC    376
+                                                                       
+LR-4-MK_rrdr_    150 --------------------------------------------------    150
+
+AY544936.1       377 GGGTCAACCCGTTCGGGTTCAT    398
+                                           
+LR-4-MK_rrdr_    150 ----------------------    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-6-MK_rrdr_FWD-240317-09-24
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 436
+# Identity:      69/436 (15.8%)
+# Similarity:    69/436 (15.8%)
+# Gaps:         323/436 (74.1%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+LR-6-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+LR-6-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+LR-6-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                                       
+LR-6-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       201 GTCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGCC    250
+                                                                       
+LR-6-MK_rrdr_      0 --------------------------------------------------      0
+
+AY544936.1       251 TGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCAC    300
+                                              ..||| |.|| .||..||| .||||
+LR-6-MK_rrdr_      1 -------------------------CATTC-CTAC-CGCTATCC-CCCAC     22
+
+AY544936.1       301 TACGGCCG-CATGTGCCCGATCGAGACCCCGGA--AGGCCCGAACATCGG    347
+                     ..|.|||| || |.|...|.|.|.|..||||||  ..|||  ||.||..|
+LR-6-MK_rrdr_     23 ACCAGCCGACA-GCGGTGGGTGGGGGTCCCGGATTTTGCC--AAAATATG     69
+
+AY544936.1       348 CC--TGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTT    395
+                     ||  |..||..|  ||.|.|..||| | |..|||..||...|..|||..|
+LR-6-MK_rrdr_     70 CCGTTTCTCAAG--ACCGCCAATGT-C-CTAGGGCGAAGAGGAACGGAAT    115
+
+AY544936.1       396 CAT---------------------------------    398
+                     ||.                                 
+LR-6-MK_rrdr_    116 CAATTCTGAAACAGACATAGTTTTCAAAATTTTTTT    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: m._komo_1-MK_rrdr_FWD-240317-09-13
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 404
+# Identity:     134/404 (33.2%)
+# Similarity:   134/404 (33.2%)
+# Gaps:         258/404 (63.9%)
+# Score: 592.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+m._komo_1-MK_      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+m._komo_1-MK_      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+m._komo_1-MK_      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGC-    199
+                                                            ||.|||||.| 
+m._komo_1-MK_      1 ---------------------------------------AAAAACCCCCG     11
+
+AY544936.1       200 TGT-----CGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCG    244
+                     |.|     |||||||||||.||||||||||.|||||||||||||||||||
+m._komo_1-MK_     12 TTTTTTTCCGGGTCTGACCTACAAGCGCCGACTGTCGGCGCTGGGCCCCG     61
+
+AY544936.1       245 GCGGCCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCC    294
+                     |||||||||||||.|||.||||||.|||.|||||.||||||||||||.||
+m._komo_1-MK_     62 GCGGCCTGTCCCGAGAGGGTGCCGCCCTTGAGGTCCGCGACGTGCACCCC    111
+
+AY544936.1       295 AGCCACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACAT    344
+                     ||||||||||||||.||||||||||||||||||||||||||         
+m._komo_1-MK_    112 AGCCACTACGGCCGGATGTGCCCGATCGAGACCCCGGAAGG---------    152
+
+AY544936.1       345 CGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGT    394
+                                                                       
+m._komo_1-MK_    152 --------------------------------------------------    152
+
+AY544936.1       395 TCAT    398
+                         
+m._komo_1-MK_    152 ----    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-1-MK_rrdr_FWD-240317-09-01
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 403
+# Identity:     134/403 (33.3%)
+# Similarity:   134/403 (33.3%)
+# Gaps:         255/403 (63.3%)
+# Score: 571.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-1-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-1-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-1-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGC-    199
+                                                           .||||.||||| 
+pc5-1-MK_rrdr      1 --------------------------------------AAACACCCCGCT     12
+
+AY544936.1       200 TG--TCGGGTCT-GACCCACAAGCGCCGTCTGT-CGGCGCTGGGCCCCGG    245
+                     ||  ||.||||| |||||||||||||||.|||| ||||||||||||||||
+pc5-1-MK_rrdr     13 TGTTTCCGGTCTCGACCCACAAGCGCCGACTGTGCGGCGCTGGGCCCCGG     62
+
+AY544936.1       246 CGGCCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCA    295
+                     |||.||||||||..|||||||||||||.|||||.|||||||||.||.|||
+pc5-1-MK_rrdr     63 CGGTCTGTCCCGAAAGCGTGCCGGCCTTGAGGTCCGCGACGTGGACCCCA    112
+
+AY544936.1       296 GCCACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATC    345
+                     |||||||||||||.|||||||||||||.||||||||||||.         
+pc5-1-MK_rrdr    113 GCCACTACGGCCGGATGTGCCCGATCGGGACCCCGGAAGGG---------    153
+
+AY544936.1       346 GGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTT    395
+                                                                       
+pc5-1-MK_rrdr    153 --------------------------------------------------    153
+
+AY544936.1       396 CAT    398
+                        
+pc5-1-MK_rrdr    153 ---    153
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-10-MK_rrdr_FWD-240317-09-10
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 398
+# Identity:     143/398 (35.9%)
+# Similarity:   143/398 (35.9%)
+# Gaps:         245/398 (61.6%)
+# Score: 635.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-10-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-10-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-10-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                               |..|||.| |||| || |||||||
+pc5-10-MK_rrd      1 --------------------------GCGCATTG-TCAG-AC-ACCCGCT     21
+
+AY544936.1       201 GTCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGCC    250
+                     ||| ||||||||||||||||||||.|||||||||||||||||||||||.|
+pc5-10-MK_rrd     22 GTC-GGTCTGACCCACAAGCGCCGACTGTCGGCGCTGGGCCCCGGCGGTC     70
+
+AY544936.1       251 TGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCAC    300
+                     |||||||.||||||||||||||.|||||.||||||||||||.||||||||
+pc5-10-MK_rrd     71 TGTCCCGAGAGCGTGCCGGCCTTGAGGTCCGCGACGTGCACCCCAGCCAC    120
+
+AY544936.1       301 TACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCCT    350
+                     ||||||||.||||||||||||||||||||||||                 
+pc5-10-MK_rrd    121 TACGGCCGGATGTGCCCGATCGAGACCCCGGAA-----------------    153
+
+AY544936.1       351 GATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                                     
+pc5-10-MK_rrd    153 ------------------------------------------------    153
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-2-MK_rrdr_FWD-240317-09-02
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 404
+# Identity:     139/404 (34.4%)
+# Similarity:   139/404 (34.4%)
+# Gaps:         256/404 (63.4%)
+# Score: 621.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-2-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-2-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-2-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAA----CC    196
+                                                          ||||.||    ||
+pc5-2-MK_rrdr      1 -------------------------------------AGAAAAAAAACCC     13
+
+AY544936.1       197 CGCTG-TCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTG-GGCCCCG    244
+                     ||||| ||.||||||||||||||||||||.|||||||||||| |||||||
+pc5-2-MK_rrdr     14 CGCTGTTCCGGTCTGACCCACAAGCGCCGACTGTCGGCGCTGTGGCCCCG     63
+
+AY544936.1       245 GCGGCCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCC    294
+                     ||||.||||||||.||||||||||||||.|||||.||||||||||||.||
+pc5-2-MK_rrdr     64 GCGGTCTGTCCCGAGAGCGTGCCGGCCTTGAGGTCCGCGACGTGCACCCC    113
+
+AY544936.1       295 AGCCACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACAT    344
+                     ||||||||||||||.||||||||||||||||||||||||||         
+pc5-2-MK_rrdr    114 AGCCACTACGGCCGGATGTGCCCGATCGAGACCCCGGAAGG---------    154
+
+AY544936.1       345 CGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGT    394
+                                                                       
+pc5-2-MK_rrdr    154 --------------------------------------------------    154
+
+AY544936.1       395 TCAT    398
+                         
+pc5-2-MK_rrdr    154 ----    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-12-MK_rrdr_FWD-240317-09-30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 400
+# Identity:     127/400 (31.8%)
+# Similarity:   127/400 (31.8%)
+# Gaps:         248/400 (62.0%)
+# Score: 482.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+LR-12-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+LR-12-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+LR-12-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                  ||| ..|.|.||.|||||.||
+LR-12-MK_rrdr      1 -----------------------------CAT-TTTAACAATAACCCCCT     20
+
+AY544936.1       201 GT--CGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGG    248
+                     .|  ||.|||||| ||||||||||||.||||||| |||||| ||||||||
+LR-12-MK_rrdr     21 CTTCCGCGTCTGA-CCACAAGCGCCGACTGTCGG-GCTGGG-CCCGGCGG     67
+
+AY544936.1       249 CCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCC    298
+                     .|||||||...||.|||||..|||.|||||.|||||||||.||.||||||
+LR-12-MK_rrdr     68 TCTGTCCCCAAAGGGTGCCCCCCTTGAGGTCCGCGACGTGGACCCCAGCC    117
+
+AY544936.1       299 ACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGC    348
+                     ||||.||.||.|||||.|||||||.||||||||||||             
+LR-12-MK_rrdr    118 ACTAAGGGCGGATGTGGCCGATCGGGACCCCGGAAGG-------------    154
+
+AY544936.1       349 CTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                                       
+LR-12-MK_rrdr    154 --------------------------------------------------    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-4-MK_rrdr_FWD-240317-09-04
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 399
+# Identity:     129/399 (32.3%)
+# Similarity:   129/399 (32.3%)
+# Gaps:         245/399 (61.4%)
+# Score: 495.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-4-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-4-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-4-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                ||..||...||.||| |||||.|
+pc5-4-MK_rrdr      1 ---------------------------TTTTTGTTACAAAAC-ACCCGTT     22
+
+AY544936.1       201 GT-CGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGC    249
+                     || ||..|||||||.| ||||||||.|||||||.|.|||||||||| ||.
+pc5-4-MK_rrdr     23 GTCCGTCTCTGACCTA-AAGCGCCGACTGTCGGGGTTGGGCCCCGG-GGG     70
+
+AY544936.1       250 CTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCA    299
+                     .|||||||.|||||..|||.|||.|||||.|||||||||| |.|||||||
+pc5-4-MK_rrdr     71 TTGTCCCGAGAGCGGCCCGCCCTTGAGGTCCGCGACGTGC-CCCCAGCCA    119
+
+AY544936.1       300 CTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCC    349
+                     |||||||||.|||||||||||||..|||||||||||              
+pc5-4-MK_rrdr    120 CTACGGCCGGATGTGCCCGATCGTAACCCCGGAAGG--------------    155
+
+AY544936.1       350 TGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                                      
+pc5-4-MK_rrdr    155 -------------------------------------------------    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-9-MK_rrdr_FWD-240317-09-09
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 399
+# Identity:     143/399 (35.8%)
+# Similarity:   143/399 (35.8%)
+# Gaps:         244/399 (61.2%)
+# Score: 647.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-9-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-9-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-9-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGA-ACAACCCGC    199
+                                                  |..||.|||.| || ||||||
+pc5-9-MK_rrdr      1 -----------------------------CCCGGTTCACATAC-ACCCGC     20
+
+AY544936.1       200 TGTCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGC    249
+                     ||||.||||||||||||||||||||.|||||||||||||||||||||||.
+pc5-9-MK_rrdr     21 TGTCCGGTCTGACCCACAAGCGCCGACTGTCGGCGCTGGGCCCCGGCGGT     70
+
+AY544936.1       250 CTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCA    299
+                     ||||||||.||||||||||||||.|||||.||||||||||||.|||||||
+pc5-9-MK_rrdr     71 CTGTCCCGAGAGCGTGCCGGCCTTGAGGTCCGCGACGTGCACCCCAGCCA    120
+
+AY544936.1       300 CTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCC    349
+                     |||||||||.||||||||||||||||||||||||||              
+pc5-9-MK_rrdr    121 CTACGGCCGGATGTGCCCGATCGAGACCCCGGAAGG--------------    156
+
+AY544936.1       350 TGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                                      
+pc5-9-MK_rrdr    156 -------------------------------------------------    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-3-MK_rrdr_FWD-240317-09-03
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 401
+# Identity:     137/401 (34.2%)
+# Similarity:   137/401 (34.2%)
+# Gaps:         247/401 (61.6%)
+# Score: 557.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-3-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-3-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-3-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGG-ATCAGAACAACCCG-    198
+                                                   |.|| |..|.||.|||||| 
+pc5-3-MK_rrdr      1 ------------------------------AGGGAAAAATAAAAACCCGT     20
+
+AY544936.1       199 CTGT-CGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCG    247
+                     .||| |||.||||| ||||||||||||.||||||| ||||||||||||||
+pc5-3-MK_rrdr     21 TTGTCCGGCTCTGA-CCACAAGCGCCGACTGTCGG-GCTGGGCCCCGGCG     68
+
+AY544936.1       248 GCCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGC    297
+                     | .|||||||.|||.|.||||.|||.|||||.||||||||||||.|||||
+pc5-3-MK_rrdr     69 G-TTGTCCCGAGAGGGGGCCGCCCTTGAGGTCCGCGACGTGCACCCCAGC    117
+
+AY544936.1       298 CACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGG    347
+                     |||||||||||.||||||||||||||||||||||||||||          
+pc5-3-MK_rrdr    118 CACTACGGCCGGATGTGCCCGATCGAGACCCCGGAAGGCC----------    157
+
+AY544936.1       348 CCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCA    397
+                                                                       
+pc5-3-MK_rrdr    157 --------------------------------------------------    157
+
+AY544936.1       398 T    398
+                      
+pc5-3-MK_rrdr    157 -    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-11-MK_rrdr_FWD-240317-09-11
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 398
+# Identity:     144/398 (36.2%)
+# Similarity:   144/398 (36.2%)
+# Gaps:         241/398 (60.6%)
+# Score: 638.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-11-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-11-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-11-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                              |.||..|.|..||| || |||||||
+pc5-11-MK_rrd      1 -------------------------ACTTATTTGTACAG-AC-ACCCGCT     23
+
+AY544936.1       201 GTCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGCC    250
+                     ||| ||||||||||||||||||||.|||||||||||||||||||||||.|
+pc5-11-MK_rrd     24 GTC-GGTCTGACCCACAAGCGCCGACTGTCGGCGCTGGGCCCCGGCGGTC     72
+
+AY544936.1       251 TGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCAC    300
+                     |||||||.||||||||||||||.|||||.||||||||||||.||||||||
+pc5-11-MK_rrd     73 TGTCCCGAGAGCGTGCCGGCCTTGAGGTCCGCGACGTGCACCCCAGCCAC    122
+
+AY544936.1       301 TACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCCT    350
+                     ||||||||.||||||||||||||||||||||||||               
+pc5-11-MK_rrd    123 TACGGCCGGATGTGCCCGATCGAGACCCCGGAAGG---------------    157
+
+AY544936.1       351 GATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                                     
+pc5-11-MK_rrd    157 ------------------------------------------------    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-21-MK_rrdr_FWD-240317-09-39
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 442
+# Identity:      72/442 (16.3%)
+# Similarity:    72/442 (16.3%)
+# Gaps:         320/442 (72.4%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ------------------------------ACGGTCGGCGAGCTGATC-C     19
+                                                   .|..||||.|||..|||| |
+LR-21-MK_rrdr      1 ATATTGGGGGGGTAAATAAAAAAAAGTCTCGCTATCGGGGAGAGGATCTC     50
+
+AY544936.1        20 AGAACCAG----ATCCGCG-TCGGCCTGTCCCGCAT-GGAGCGCGTTG-T     62
+                     .|.|..||    |.|.|.| .||..|.|....|..| ||||.|.|..| .
+LR-21-MK_rrdr     51 GGTATGAGGGGAAACAGGGCACGAACGGGGGGGTTTAGGAGGGGGGGGAG    100
+
+AY544936.1        63 CCGTGA-GCGGATGACC---ACCCAGGACGTCGAGGCCATCACGCCGCAG    108
+                     ..|.|| |.||.|||||   |...||| .|..||||  || |.||.||.|
+LR-21-MK_rrdr    101 GGGGGAGGGGGTTGACCTATAAAAAGG-GGGGGAGG--AT-AAGCTGCGG    146
+
+AY544936.1       109 ACCCTGATCAACAT--CCGTCCCGTCGTGGCGGCGATCAAGGAGTTCTTC    156
+                     |.|..|.|.|| ||  ..||.                             
+LR-21-MK_rrdr    147 ATCTAGGTTAA-ATGAAGGTG-----------------------------    166
+
+AY544936.1       157 GGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCTGTCGGG    206
+                                                                       
+LR-21-MK_rrdr    166 --------------------------------------------------    166
+
+AY544936.1       207 TCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGCCTGTCCC    256
+                                                                       
+LR-21-MK_rrdr    166 --------------------------------------------------    166
+
+AY544936.1       257 GTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCACTACGGC    306
+                                                                       
+LR-21-MK_rrdr    166 --------------------------------------------------    166
+
+AY544936.1       307 CGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCCTGATCGG    356
+                                                                       
+LR-21-MK_rrdr    166 --------------------------------------------------    166
+
+AY544936.1       357 GTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                               
+LR-21-MK_rrdr    166 ------------------------------------------    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LP-24-MK_rrdr_FWD-240317-09-70
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 447
+# Identity:      99/447 (22.1%)
+# Similarity:    99/447 (22.1%)
+# Gaps:         311/447 (69.6%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ----------------------------ACGGTCGGCGAGCTGA-TCC--     19
+                                                 |||  ||.|.|.|.|| |||  
+LP-24-MK_rrdr      1 TCCCCCCCAAAAAAAATCCCCCAACTCGACG--CGACCATCCGATTCCTC     48
+
+AY544936.1        20 ----A-GAA-CCAGATCCGCGTC-GGCCTGTC---CCGCATGGAGCGCGT     59
+                         | ||| |.||||.|||..| ..|.||||   || ||.||||.| ||
+LP-24-MK_rrdr     49 CCTTAGGAATCTAGATGCGCCCCAATCATGTCTTTCC-CAAGGAGTG-GT     96
+
+AY544936.1        60 TGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCACGCCGCAGA    109
+                     .|||.|.|.|.||  |.||.|||    | .|| |||.|    |  |.||.
+LP-24-MK_rrdr     97 GGTCGGGGGGGGG--GGCCTCCC----C-CCG-GGCGA----G--GGAGT    132
+
+AY544936.1       110 CCCTGATCAACATCCGTCCC----GTCGTGGCGGCGATCAA-GGAGTTCT    154
+                     |||       ||..|||.||    ||.|||....||  ||| .||.|  |
+LP-24-MK_rrdr    133 CCC-------CACTCGTTCCTTTTGTTGTGAAAACG--CAACAGACT--T    171
+
+AY544936.1       155 TCGGGAC---CAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCTG    201
+                     ||.||.|   |||.                                    
+LP-24-MK_rrdr    172 TCAGGTCTTTCAGG------------------------------------    185
+
+AY544936.1       202 TCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGCCT    251
+                                                                       
+LP-24-MK_rrdr    185 --------------------------------------------------    185
+
+AY544936.1       252 GTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCACT    301
+                                                                       
+LP-24-MK_rrdr    185 --------------------------------------------------    185
+
+AY544936.1       302 ACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCCTG    351
+                                                                       
+LP-24-MK_rrdr    185 --------------------------------------------------    185
+
+AY544936.1       352 ATCGGGTCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                                    
+LP-24-MK_rrdr    185 -----------------------------------------------    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LP-20-MK_rrdr_FWD-240317-09-66
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 491
+# Identity:      67/491 (13.6%)
+# Similarity:    67/491 (13.6%)
+# Gaps:         391/491 (79.6%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+AY544936.1         0 --------------------------------------------------      0
+                                                                       
+LP-20-MK_rrdr      1 ATCAATTTTCTCCAACCCCTTCAAGGACCACAAAGTTTTTTTCTTTTGGA     50
+
+AY544936.1         1 ---------------------ACGGTCGGCGAGCTGATCCAGAACCAGAT     29
+                                          |  ||||||..|||.|...|||||  .||
+LP-20-MK_rrdr     51 AAGTAAACCCCCCCTTTATTAA--GTCGGCCGGCTAAAAAAGAAC--TAT     96
+
+AY544936.1        30 CC--GC-GTCGGCCTGTCCCGC-AT----------GGAG--CGCGTTGTC     63
+                     .|  || |||||..| .|||.| ||          ||||  |.|...|.|
+LP-20-MK_rrdr     97 GCGGGCTGTCGGGAT-CCCCTCTATTATAAAGAAAGGAGAACCCCCCGCC    145
+
+AY544936.1        64 CGTGAGCGGAT----GACCACCCAGGACGTCG-AG-GCCATCACGCCGCA    107
+                     .||.| ||..|    ..|||.|||||||.|.| || ||.|..|.|..|. 
+LP-20-MK_rrdr    146 GGTTA-CGTCTTTTCTTCCAACCAGGACTTTGTAGTGCTAATAGGGGGA-    193
+
+AY544936.1       108 GACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAGTTCTTCG    157
+                                                                       
+LP-20-MK_rrdr    193 --------------------------------------------------    193
+
+AY544936.1       158 GGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCTGTCGGGT    207
+                                                                       
+LP-20-MK_rrdr    193 --------------------------------------------------    193
+
+AY544936.1       208 CTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGCCTGTCCCG    257
+                                                                       
+LP-20-MK_rrdr    193 --------------------------------------------------    193
+
+AY544936.1       258 TGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCACTACGGCC    307
+                                                                       
+LP-20-MK_rrdr    193 --------------------------------------------------    193
+
+AY544936.1       308 GCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCCTGATCGGG    357
+                                                                       
+LP-20-MK_rrdr    193 --------------------------------------------------    193
+
+AY544936.1       358 TCACTGTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                              
+LP-20-MK_rrdr    193 -----------------------------------------    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LP-21-MK_rrdr_FWD-240317-09-67
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 534
+# Identity:      40/534 ( 7.5%)
+# Similarity:    40/534 ( 7.5%)
+# Gaps:         474/534 (88.8%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+LP-21-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+LP-21-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+LP-21-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                                       
+LP-21-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       201 GTCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGGCC    250
+                                                                       
+LP-21-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       251 TGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCCAC    300
+                                                                       
+LP-21-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       301 TACGGCCGCATGTGCCCGATCGAGACCCCGGAA----GGCCCGAACATCG    346
+                                                   .||    |||||.|||  |.
+LP-21-MK_rrdr      1 ------------------------------CAAATTTGGCCCAAAC--CC     18
+
+AY544936.1       347 GCCTG-A-TCGGGTCACTGTCGGTGTACGCGCGGGTCAA--CCCGTTCGG    392
+                     .||.| | ||...|.|...||  |.|||| |....|.||  |||.|||  
+LP-21-MK_rrdr     19 TCCAGCACTCTAATTATATTC--TATACG-GAAATTAAATTCCCCTTC--     63
+
+AY544936.1       393 GTTCAT--------------------------------------------    398
+                      |||.|                                            
+LP-21-MK_rrdr     64 -TTCTTTCGACGGCCCTTTTTCAAAAAAGAATAGGAGGGTGGGGGGAATC    112
+
+AY544936.1       398 --------------------------------------------------    398
+                                                                       
+LP-21-MK_rrdr    113 CCCCCCCACTAAAAGGAAGGAGCACCACATACACATTTCCTTTTTTTTTT    162
+
+AY544936.1       398 ----------------------------------    398
+                                                       
+LP-21-MK_rrdr    163 TTTTCACAGGGAGAATGGCCTGCGAATGGGGAGG    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LP-19-MK_rrdr_FWD-240317-09-65
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 529
+# Identity:      60/529 (11.3%)
+# Similarity:    60/529 (11.3%)
+# Gaps:         439/529 (83.0%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+AY544936.1         0 --------------------------------------------------      0
+                                                                       
+LP-19-MK_rrdr      1 TTTCCTCCAAAACCCCGGAGCCACCCCCAAAGAATGTTTCCATTAAAAAA     50
+
+AY544936.1         0 --------------------------------------------------      0
+                                                                       
+LP-19-MK_rrdr     51 AAAAAGACCCCCTCCTTTTAAGTGGGCTGGGATTTAAAAGAAAGAGGGAT    100
+
+AY544936.1         1 --------------------ACGGTCGGCGAGCTGATCCAGAACCAGATC     30
+                                         ||   ..|.|||| |.||| .|| ||.|.|
+LP-19-MK_rrdr    101 GATGAGATGCACCCCCTTTAAC---AAGAGAGC-GCTCC-CAA-CATACC    144
+
+AY544936.1        31 CGCGTCGGC-CTGTCCCGCATGGAGCGCGTTGTCCGTGAGCGG-------     72
+                     |.|  |  | ||.||||.|| .||..|.||.||.|...||.||       
+LP-19-MK_rrdr    145 CCC--C--CTCTTTCCCCCA-AGACAGTGTGGTGCAAAAGGGGTAATGTA    189
+
+AY544936.1        73 --ATGACCACCCAGGACGTCGAGGCCAT-CACGCCGCAGACCCTGATCAA    119
+                       |||.||..|||  ||...|||..||| ||.|.                
+LP-19-MK_rrdr    190 ATATGGCCCACCA--ACCGGGAGCGCATGCAAGT----------------    221
+
+AY544936.1       120 CATCCGTCCCGTCGTGGCGGCGATCAAGGAGTTCTTCGGGACCAGCCAGC    169
+                                                                       
+LP-19-MK_rrdr    221 --------------------------------------------------    221
+
+AY544936.1       170 TCTCGCAGTTCATGGATCAGAACAACCCGCTGTCGGGTCTGACCCACAAG    219
+                                                                       
+LP-19-MK_rrdr    221 --------------------------------------------------    221
+
+AY544936.1       220 CGCCGTCTGTCGGCGCTGGGCCCCGGCGGCCTGTCCCGTGAGCGTGCCGG    269
+                                                                       
+LP-19-MK_rrdr    221 --------------------------------------------------    221
+
+AY544936.1       270 CCTCGAGGTTCGCGACGTGCACTCCAGCCACTACGGCCGCATGTGCCCGA    319
+                                                                       
+LP-19-MK_rrdr    221 --------------------------------------------------    221
+
+AY544936.1       320 TCGAGACCCCGGAAGGCCCGAACATCGGCCTGATCGGGTCACTGTCGGTG    369
+                                                                       
+LP-19-MK_rrdr    221 --------------------------------------------------    221
+
+AY544936.1       370 TACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                  
+LP-19-MK_rrdr    221 -----------------------------    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-11-MK_rrdr_FWD-240317-09-29
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 449
+# Identity:     118/449 (26.3%)
+# Similarity:   118/449 (26.3%)
+# Gaps:         268/449 (59.7%)
+# Score: 78.0
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+LR-11-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+LR-11-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+LR-11-MK_rrdr      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGGATCAGAACAACCCGCT    200
+                                                            ||.||      
+LR-11-MK_rrdr      1 ---------------------------------------AAAAA------      5
+
+AY544936.1       201 GTCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGC-GGC    249
+                      |||...| ||...|.||...|| ||  ||  |.|..||.|..||| ...
+LR-11-MK_rrdr      6 -TCGAAGC-GAAAAAAAAAAACC-TC--TC--CCCGAGGACGGGGCAAAA     48
+
+AY544936.1       250 CTGTCC-CGTGAGCGTGCCGGCCTCGAGGTTCGCGACG-----TGCACTC    293
+                     .|.||| |..|||.|.|..||.|.|      |||||||     ||||.|.
+LR-11-MK_rrdr     49 ATCTCCGCAAGAGGGGGGAGGGCCC------CGCGACGGGTTATGCATTT     92
+
+AY544936.1       294 CAGCCACTACGGCCG---CATGTGCCCGATCGAGACCCCGGAAGGC-CCG    339
+                     .||||..||.||..|   .|.|.||.||.| .| |||||..||.|| |||
+LR-11-MK_rrdr     93 AAGCCGATAGGGGGGAGAAAGGGGCGCGGT-TA-ACCCCCAAAAGCACCG    140
+
+AY544936.1       340 A-AC-AT---CGGCCTGATCGGGTCACTGTCGGTGTACGCGCGGGTCAAC    384
+                     | || ||   |||.| ||||..||  || |.|.||   |.|.|||.|.||
+LR-11-MK_rrdr    141 AGACTATCCGCGGGC-GATCTAGT--CT-TAGCTG---GGGTGGGACGAC    183
+
+AY544936.1       385 CCGTTCGGGTTCAT-----------------------------------    398
+                     .||.||.|...||.                                   
+LR-11-MK_rrdr    184 TCGATCCGCCACAGGCTAGACAGAAACACGAACGGGGGGGGGGAGGTGA    232
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-14-MK_rrdr_FWD-240317-09-33
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 435
+# Identity:     164/435 (37.7%)
+# Similarity:   164/435 (37.7%)
+# Gaps:         211/435 (48.5%)
+# Score: 147.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                     ||
+LR-14-MK_rrdr      1 ------------------------------------------------AT      2
+
+AY544936.1        51 --GGAGCGCGTTGTCCGTGA---GCGGAT---GACCACCCAGGACGTCGA     92
+                       ||.||.|..|.|||...|   |||| |   || .||.|.||.|| ||.
+LR-14-MK_rrdr      3 AAGGGGCCCTATTTCCCCAAAAGGCGG-TGGGGA-GACGCCGGCCG-CGG     49
+
+AY544936.1        93 GGCCATCACGCCGC----AGACCCTGATCAAC-ATCCGTCCCGTCGTGGC    137
+                     ||...|..|.||.|    |.||||.|   .|| |||||..|||       
+LR-14-MK_rrdr     50 GGGGTTGCCCCCCCAAAAAAACCCGG---GACTATCCGCTCCG-------     89
+
+AY544936.1       138 GGCGATCAAG----GAGTT---CTTCGGGACCAGCCAGCTCTCGCAGTTC    180
+                        ||||.||    .|.||   |||  ||||||||..|.|| |||  ..|
+LR-14-MK_rrdr     90 ---GATCTAGCTTTTAATTTAACTT--GGACCAGCTCGATC-CGC--CCC    131
+
+AY544936.1       181 ATGG--ATCA--GAACAAC------CCGCTG-TC-GGGTCTGACCCACAA    218
+                     .|||  |.||  |||||||      |.||.| || ||||||  |||.|..
+LR-14-MK_rrdr    132 CTGGGCAACACGGAACAACAGGGGGCGGCGGCTCGGGGTCT--CCCCCTG    179
+
+AY544936.1       219 GCGCCGT-CTGTCGGCGCTGGGCCCCGGCGGCC-TGTCCCGTGAGCGTGC    266
+                     |.||  | |..||    |||||.||.|||.||| ..|||| .|||     
+LR-14-MK_rrdr    180 GGGC--TCCACTC----CTGGGTCCTGGCCGCCAAATCCC-CGAG-----    217
+
+AY544936.1       267 CGGCCTCGA-GGTTCGCG-ACGTGCACTCCAGCCA-CTACGGCCGCATGT    313
+                          |||| ||||..|| .|||||   |..|||| ||.||||..|.||.
+LR-14-MK_rrdr    218 -----TCGAGGGTTTACGTTCGTGC---CGGGCCATCTTCGGCTCCCTGG    259
+
+AY544936.1       314 GCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCCTGATCGGGTCACTG    363
+                     |.                                                
+LR-14-MK_rrdr    260 GG------------------------------------------------    261
+
+AY544936.1       364 TCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                        
+LR-14-MK_rrdr    261 -----------------------------------    261
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LP-23-MK_rrdr_FWD-240317-09-69
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 436
+# Identity:     188/436 (43.1%)
+# Similarity:   188/436 (43.1%)
+# Gaps:         156/436 (35.8%)
+# Score: 167.0
+# 
+#
+#=======================================
+
+AY544936.1         1 -------------------ACGGTCGGCGAGCTGATCCAGAACCAGATCC     31
+                                        ||  .|.||.|  |...||| ||.|.||||.
+LP-23-MK_rrdr      1 ACAAAAAGGCTCCCCCCCCAC--ACCGCCA--TCCCCCA-AATCGGATCT     45
+
+AY544936.1        32 GCGTCGGCCTGTCCCGCATGGAGCGCGTTG--TCCGTGAGCGGATGACCA     79
+                     |.|  .|.||||.|||   || ||.|.|.|  |||.||| ||.||..||.
+LP-23-MK_rrdr     46 GGG--AGTCTGTTCCG---GG-GCCCCTGGGATCCATGA-CGCATCCCCC     88
+
+AY544936.1        80 CCCAGGACGTCGAGGCCATCACGCCGCAGACCCTGATCAACATCCGTCCC    129
+                     |||.|||||..|.||     ..|..|..|| ..||| |.||  |   |||
+LP-23-MK_rrdr     89 CCCGGGACGGGGGGG-----GGGGGGTGGA-TTTGA-CTAC--C---CCC    126
+
+AY544936.1       130 GTCGTGGCGGCGATCA-AGGAGTTCTTCGGGACCAGCCAGCTCTCGCAGT    178
+                     |.|| |||  |...|| .||.| |||||.||        |.|||.|..| 
+LP-23-MK_rrdr    127 GGCG-GGC--CTCCCACTGGCG-TCTTCTGG--------GTTCTGGTGG-    163
+
+AY544936.1       179 TCATGGATCAGAACAACCCGCTGTC-GGGTCTGACC--CACAAGC-GCCG    224
+                      |.||    ||||...||.|.|||| ||||.|.|.|  |.||..| ||||
+LP-23-MK_rrdr    164 -CCTG----AGAAATTCCGGTTGTCGGGGTGTCATCAGCTCATCCGGCCG    208
+
+AY544936.1       225 TCTGTCGGCGCTGGGCCCCGGCGGCCTGTCC-----CGTGAGCGTGC--C    267
+                     ||| |||...|.||.||..||.|.||||.||     |..|||.|.||  |
+LP-23-MK_rrdr    209 TCT-TCGCTTCAGGTCCGGGGGGTCCTGGCCTCTATCTGGAGGGGGCTGC    257
+
+AY544936.1       268 GGCCTC-----GAGGTTCGCGACGTGCACTCCAGCCACTACGGCCGCATG    312
+                     .|||.|     ||||   |||  | ||.....|..|||.|.||.||||.|
+LP-23-MK_rrdr    258 TGCCCCTGCCAGAGG---GCG--G-GCGGGGGAAACACGAGGGGCGCAGG    301
+
+AY544936.1       313 TGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGCCTGATCGGGTCACT    362
+                     .|...| |.|.||||..|                                
+LP-23-MK_rrdr    302 GGTAAG-TAGGGACCGGG--------------------------------    318
+
+AY544936.1       363 GTCGGTGTACGCGCGGGTCAACCCGTTCGGGTTCAT    398
+                                                         
+LP-23-MK_rrdr    318 ------------------------------------    318
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: pc5-12-MK_rrdr_FWD-240317-09-12
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 512
+# Identity:     174/512 (34.0%)
+# Similarity:   174/512 (34.0%)
+# Gaps:         303/512 (59.2%)
+# Score: 597.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCGTCGGCCTGTCCCGCAT     50
+                                                                       
+pc5-12-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1        51 GGAGCGCGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGAGGCCATCA    100
+                                                                       
+pc5-12-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1       101 CGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGATCAAGGAG    150
+                                                                       
+pc5-12-MK_rrd      0 --------------------------------------------------      0
+
+AY544936.1       151 TTCTTCGGGACCAGCCAGCTCTCGCAGTTCA--TGGATCAGAACAACCCG    198
+                                                .|||  ||.| |||||| |||||
+pc5-12-MK_rrd      1 ---------------------------ATCATCTGTA-CAGAAC-ACCCG     21
+
+AY544936.1       199 CTGTCGGGTCTGACCCACAAGCGCCGTCTGTCGGCGCTGGGCCCCGGCGG    248
+                     |||||.|||||||||.||||||||||.|||||||||||||||||||||||
+pc5-12-MK_rrd     22 CTGTCCGGTCTGACCTACAAGCGCCGACTGTCGGCGCTGGGCCCCGGCGG     71
+
+AY544936.1       249 CCTGTCCCGTGAGCGTGCCGGCCTCGAGGTTCGCGACGTGCACTCCAGCC    298
+                     .||||||||.||||||||||||||.|||||.||||||||||||.||||||
+pc5-12-MK_rrd     72 TCTGTCCCGAGAGCGTGCCGGCCTTGAGGTCCGCGACGTGCACCCCAGCC    121
+
+AY544936.1       299 ACTACGGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCGAACATCGGC    348
+                     ||||||||||.||||||||||||||||||||||||||   |  ..|....
+pc5-12-MK_rrd    122 ACTACGGCCGGATGTGCCCGATCGAGACCCCGGAAGG---G--TTTTTTT    166
+
+AY544936.1       349 CTG-ATCGGGTCACTGTCGGTGTACGCGCGGGT---CAAC--CCGTTCGG    392
+                     .|| ||  ..|...|.||..|.|...| |.|||   ||||  |...||||
+pc5-12-MK_rrd    167 TTGTAT--TTTTTTTTTCCATTTTATC-CTGGTCCACAACAACTCCTCGG    213
+
+AY544936.1       393 GTTCAT--------------------------------------------    398
+                     |  |.|                                            
+pc5-12-MK_rrd    214 G--CTTGGGGGGGGGGGGGGGGGGCCTCAAAAATCCATAATGGTCTCCAT    261
+
+AY544936.1       398 --------------------------------------------------    398
+                                                                       
+pc5-12-MK_rrd    262 CCTTCTCTTTAAGATACATCTCCTACCACCCATTCCACTCTCTTGTGAAT    311
+
+AY544936.1       398 ------------    398
+                                 
+pc5-12-MK_rrd    312 ACTCAATCTTCA    323
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LP-25-MK_rrdr_FWD-240317-09-71
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 611
+# Identity:     241/611 (39.4%)
+# Similarity:   241/611 (39.4%)
+# Gaps:         280/611 (45.8%)
+# Score: 170.0
+# 
+#
+#=======================================
+
+AY544936.1         0 --------------------------------------------------      0
+                                                                       
+LP-25-MK_rrdr      1 AAACCAACCAGGGGGCCTCCCAAGGCTCCCGGTTCCCCAGGGGGCTCCCC     50
+
+AY544936.1         0 --------------------------------------------------      0
+                                                                       
+LP-25-MK_rrdr     51 CAGAACCTCGGGGAAGCCCGGGAGGAGAACACAGGGGGTAGATCGACTCA    100
+
+AY544936.1         0 --------------------------------------------------      0
+                                                                       
+LP-25-MK_rrdr    101 GGGGGGTGGGGAGCTGAGCCTGGCCCATCAGGCAGGGGTGGGACTGGAGT    150
+
+AY544936.1         1 ------------------------ACG--GTCGGCGAGCTGATCCAGA--     22
+                                             |||  |.|||.||| ||.|..|||  
+LP-25-MK_rrdr    151 GGCTGATCAGAGGCCCTTTTCGAGACGCTGGCGGTGAG-TGGTAAAGATG    199
+
+AY544936.1        23 ACCAG--ATCCGCGTCGGCCTGTCCCGCATGGA-GCGCGTTGTCCGTGAG     69
+                     .||.|  ||..| .|.||   ||.||||..||| |.|||  |.|| |   
+LP-25-MK_rrdr    200 GCCTGGTATAAG-ATGGG---GTGCCGCGGGGAGGGGCG--GGCC-T---    239
+
+AY544936.1        70 CGGATGAC---CACCCAGGACGTCGAGGCCATCACGCCGCAGACCCT-G-    114
+                      ||.|.||   ||..|.|||.|...|||.| ||      ||||.||| | 
+LP-25-MK_rrdr    240 -GGTTTACCTTCAGTCGGGAGGGGAAGGGC-TC------CAGAACCTCGG    281
+
+AY544936.1       115 -ATCAACATC--CGTCCCGTC-GTGGCGG-CGATCAAGGAGTTCTTCGGG    159
+                      |||.|| ||  | |||.||| |.||||| .|| |.||  ||.||  ||.
+LP-25-MK_rrdr    282 CATCTAC-TCAAC-TCCAGTCAGAGGCGGAAGA-CCAG--GTCCT--GGT    324
+
+AY544936.1       160 ACCAG-CCA-GCTC-TCGCAGTTCATGG-ATCAGAACAACCCGCTGTCGG    205
+                     .|||| .|| |||| ..||.|.|| ||| .||..|  ||.|..|||  ||
+LP-25-MK_rrdr    325 GCCAGAACATGCTCGAGGCGGATC-TGGCTTCTTA--AAGCAACTG--GG    369
+
+AY544936.1       206 GTCT---GACCCACAAGCGCCGTCT-GTC------GGCGCTGG-GCCCCG    244
+                     .|||   ||  ...|||.|..|||| |||      |||..||| ||.|||
+LP-25-MK_rrdr    370 CTCTTTGGA--GGGAAGGGGGGTCTGGTCCAGGGTGGCATTGGAGCGCCG    417
+
+AY544936.1       245 GCGGCCTGTCCCGTGAGCGTGC--CGGCCTCGA-GGTTCGCGACGTGCAC    291
+                       ||..|.|   |.|||...||  |.|.||||| ||...|.||||.|  |
+LP-25-MK_rrdr    418 --GGATTAT---GGGAGGAAGCTTCTGACTCGAGGGGGGGAGACGAG--C    460
+
+AY544936.1       292 TCCAGCCACTAC--GGCCGCATGTGCCCGATCGAGACCCCGGAAGGCCCG    339
+                     |||.|.| ||.|  ||.||| || |||||   | |.|...||||||   |
+LP-25-MK_rrdr    461 TCCTGGC-CTCCGAGGGCGC-TG-GCCCG---G-GGCGTTGGAAGG---G    500
+
+AY544936.1       340 AACATCGGCCTGATCGGGTC-AC-TGTCGGTGTACGCGCGGGTCAACCCG    387
+                        .|.||...||   ||.| || ||| |||| | | |.|||   |||.|
+LP-25-MK_rrdr    501 ---GTGGGGGGGA---GGACGACTTGT-GGTG-A-G-GAGGG---ACCGG    537
+
+AY544936.1       388 TTCGGGTTCAT    398
+                     ...|||.    
+LP-25-MK_rrdr    538 GGGGGGC----    544
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AY544936.1
+# 2: LR-7-MK_rrdr_FWD-240317-09-25
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 2.5
+#
+# Length: 717
+# Identity:     236/717 (32.9%)
+# Similarity:   236/717 (32.9%)
+# Gaps:         390/717 (54.4%)
+# Score: 213.5
+# 
+#
+#=======================================
+
+AY544936.1         1 ACGGTCGGCGAGCTGATCCAGAACCAGATCCGCG----TC--GGCCTGTC     44
+                                                   .|.|    ||  |||| |.|
+LR-7-MK_rrdr_      1 ------------------------------TGGGGTTTTCTGGGCC-GGC     19
+
+AY544936.1        45 CCGCATGGAGCG--CGTTGTCCGTGAGCGGATGACCACCCAGGACGTCGA     92
+                     ||| ..||||.|  |.|||||||.|.|.|||..|.|||||.||  |  |.
+LR-7-MK_rrdr_     20 CCG-GGGGAGGGTCCTTTGTCCGGGGGGGGAAAAACACCCCGG--G--GG     64
+
+AY544936.1        93 GGCCATCACGCCGCAGACCCTGATCAACATCCGTCCCGTCGTGGCGGCGA    142
+                     ||||..| || .|| |.|.|| |  ||.| |||.|.||.|||.|.||.||
+LR-7-MK_rrdr_     65 GGCCGGC-CG-GGC-GGCACT-A--AATA-CCGGCTCGACGTCGGGGGGA    107
+
+AY544936.1       143 ----TCAAGGAG----TTCTTCGGGACCAGCCAGCTCTCGCAGTTCATGG    184
+                         .|.|||||    .||.|.||||...|..| ||||  ||..||.| |
+LR-7-MK_rrdr_    108 GGGGGCGAGGAGAAAACTCATAGGGAGGGGGGA-CTCT--CACCTCCT-G    153
+
+AY544936.1       185 ATCAG-----AACA--------ACCCGCTGTCGGGTC-------TG----    210
+                     |||.|     ||||        |||.||  ||||.||       ||    
+LR-7-MK_rrdr_    154 ATCTGGTTTTAACAAAGTTTGTACCGGC--TCGGATCCCCCACATGGAAA    201
+
+AY544936.1       211 ---------ACCCAC--AAGCGC----CGTCTGTCGGC----GCT---GG    238
+                              ||||||  ..||||    ||||.|..|||    .||   ||
+LR-7-MK_rrdr_    202 ACAACAAATACCCACGGGGGCGCGAGGCGTCAGGGGGCTCAAACTTGGGG    251
+
+AY544936.1       239 GCCCCGG--CGGCCTGTCC--CGT-GAGCGTGCCGGCCTCGAGG--TTCG    281
+                     |||||.|  |||.||.|||  |.| |||...||..|.|||.|.|  |||.
+LR-7-MK_rrdr_    252 GCCCCAGTCCGGGCTTTCCGACCTAGAGGAGGCAAGACTCAAAGCTTTCT    301
+
+AY544936.1       282 CGACGTGCACTCCAGCCACTACGGCCGCATGTGCCCGATCGAGACCCCGG    331
+                     ..||||||...|| .||.||  |.||.|.||.|.|.|| |..|| |||..
+LR-7-MK_rrdr_    302 TAACGTGCTGGCC-CCCCCT--GACCCCTTGCGGCGGA-CACGA-CCCAT    346
+
+AY544936.1       332 AAGGCCCGAACATCGGCCTGATCGGGTCACTGTCGGTGTA---CGCGCGG    378
+                     ||..||||||       |||...|.|     ||||||.||   | |.|||
+LR-7-MK_rrdr_    347 AACCCCCGAA-------CTGGAAGAG-----GTCGGTATATATC-CCCGG    383
+
+AY544936.1       379 GTCAACCCGTTCGGGTT--CAT----------------------------    398
+                     | |.||   |||...||  |||                            
+LR-7-MK_rrdr_    384 G-CGAC---TTCCCCTTAACATTTACTTCCTGCCTGGCACCAACTGTGGC    429
+
+AY544936.1       398 --------------------------------------------------    398
+                                                                       
+LR-7-MK_rrdr_    430 ATCAACCCGATTGCAGGGGCGCCCGTCTTGCACGAAGGGCGTGCTTCCAC    479
+
+AY544936.1       398 --------------------------------------------------    398
+                                                                       
+LR-7-MK_rrdr_    480 CCGCGCGCAGCGGTAGGAGAGAGAGAGTCGGTTTCCCCCTCGCGCCACCA    529
+
+AY544936.1       398 --------------------------------------------------    398
+                                                                       
+LR-7-MK_rrdr_    530 CAAGGCTTGGGCCTACCTCTCAACGACTTTGCGGTCCCCGTGACCCCACC    579
+
+AY544936.1       398 --------------------------------------------------    398
+                                                                       
+LR-7-MK_rrdr_    580 CCTGAAGAGTCCACTTCGGGGGGGACGGGCCGCTTGTGGACGTCGTAGCC    629
+
+AY544936.1       398 -----------------    398
+                                      
+LR-7-MK_rrdr_    630 CCACCCCCCGGGCGCGG    646
+
+
+#---------------------------------------
+#---------------------------------------

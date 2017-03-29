@@ -181,7 +181,8 @@ for $K (0..$ENDRANGE) {
         # printf "%s", $TAH[$J];
         # ($J==$R1Z-1)? print "\n" : print "\t";
     }
-    # now print rest of rows.
+    # now print rest of rows, but first, header
+    printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", "QFI", "ALEN", "SCORE", "IDEN", "IPT", "SIM", "GAPS", "GPT", "TSC", "TEC", "PET", "QSC", "QEC", "QLN", "PEQ";
     for($I=0; $I<$TSZ; $I++) {
         printf "%s\t%d\t%4.1f\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%d\t%3.1f\n", $TAAS[$I][0], $TAAS[$I][1], $TAAS[$I][2], $TAAS[$I][3], $TAAS[$I][4], $TAAS[$I][5], $TAAS[$I][6], $TAAS[$I][7], $TAAS[$I][8], $TAAS[$I][9], $TAAS[$I][10], $TAAS[$I][11], $TAAS[$I][12], $TAAS[$I][13], $TAAS[$I][14];
     }

@@ -19,3 +19,8 @@ and just concentrates on basic functionality.
 
 * whatseqio.pl
 A toy program.
+
+* COmparing needle and water.
+By far the biggest difference is that NW considers the entire target as game, so that starting and ending gaps are counted
+so you get a high gap count. Waterman ignores, these, but you also get a lower PET (% of target). In fact almost by definition,
+% of target on needle will byy 100% always because of its nature
