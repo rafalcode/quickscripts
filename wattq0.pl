@@ -68,8 +68,10 @@ my $TSL = $T[0]->length(); # will be the same for both, if all targets are the s
 
 # and now get the query sequences.
 my $TQL=0;
+my @QSNS; # query sequence names
 while ( my $sq = $qin->next_seq() ) {
     push @Q, $sq;
+    push @QSNS, $sq->id;
     $qcou++;
     $TQL += $sq->length();
 }
@@ -101,6 +103,7 @@ my $inaln;
 my ($TS, $TE); 
 my $EXN; # exon name
 
+# For each target:
 my $ENDRANGE=0;
 for $K (0..$ENDRANGE) {
 	# this is some sort of alt options
@@ -156,7 +159,24 @@ for $K (0..$ENDRANGE) {
     # TEC target end Coordinate, IPT iden percentage, SFI source file index (whihc is also the alignment index
     $TSC=0;
     # capture table in array of array refs first.
+	my @QNA; # query name array.
+	my $DSPN;
+	my $C2=0; # for counting numseqs in each alignment. WIll be 2 for water and needle. Unfort correspnding names (id) will be the EMBOSS shortened one.
     while ( my $aln = $inaln->next_aln ) {
+		# exploring SimpleAlign .. this each seq is weird. OK, workied in out .. this is because emboss shortens the sequence names
+		foreach my $sq ($aln->each_seq) {
+			if($C2==1) {
+				push @QNA, $sq->id();
+			}
+			$C2=$C2+1;
+		}
+		$C2=0;
+		# also did not work
+		# foreach my $sq (@QNA) {
+		# 	print "$sq\n";
+		# }
+		# $DSPN=$aln->displayname();
+		# print "$DSPN\n";
         $I=3*$ACOU;
         $J=4*$ACOU;
         $PET=100*($B[$J+1] - $B[$J] +1)/$T[0]->length();
@@ -165,7 +185,7 @@ for $K (0..$ENDRANGE) {
         $TS=($K%2)? $T[$K]->length() - $B[$J]+1 : $B[$J];
         $TE=($K%2)? $T[$K]->length() - $B[$J+1]+1 : $B[$J+1];
         $EXN=sprintf("e%02d", $ACOU+1);
-        push @TAA, [$EXN, $aln->length(), $aln->score(), $ISG[$I], 100*$ISG[$I]/$aln->length(), $ISG[$I+1], $ISG[$I+2], 100*$ISG[$I+2]/$aln->length(), ($K%2)? $TE : $TS, ($K%2)? $TS : $TE, $PET, $B[$J+2], $B[$J+3], $Q[$ACOU]->length(), $PEQ];
+        push @TAA, [$QSNS[$ACOU], $aln->length(), $aln->score(), $ISG[$I], 100*$ISG[$I]/$aln->length(), $ISG[$I+1], $ISG[$I+2], 100*$ISG[$I+2]/$aln->length(), ($K%2)? $TE : $TS, ($K%2)? $TS : $TE, $PET, $B[$J+2], $B[$J+3], $Q[$ACOU]->length(), $PEQ];
         $ACOU++;
         $TSC += $aln->score();
     }
@@ -182,14 +202,16 @@ for $K (0..$ENDRANGE) {
         # ($J==$R1Z-1)? print "\n" : print "\t";
     }
     # now print rest of rows, but first, header
-    printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", "QFI", "ALEN", "SCORE", "IDEN", "IPT", "SIM", "GAPS", "GPT", "TSC", "TEC", "PET", "QSC", "QEC", "QLN", "PEQ";
+    printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", "QN", "ALEN", "SCORE", "IDEN", "IPT", "SIM", "GAPS", "GPT", "TSC", "TEC", "PET", "QSC", "QEC", "QLN", "PEQ";
     for($I=0; $I<$TSZ; $I++) {
         printf "%s\t%d\t%4.1f\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%3.1f\t%d\t%d\t%d\t%3.1f\n", $TAAS[$I][0], $TAAS[$I][1], $TAAS[$I][2], $TAAS[$I][3], $TAAS[$I][4], $TAAS[$I][5], $TAAS[$I][6], $TAAS[$I][7], $TAAS[$I][8], $TAAS[$I][9], $TAAS[$I][10], $TAAS[$I][11], $TAAS[$I][12], $TAAS[$I][13], $TAAS[$I][14];
     }
     printf "Score for %d query sequences (total %d bp) against %s target (%d bp) = %4.2f\n", $NQS, $TQL, $FRSTR[$K%2], $TSL, $TSC;
     if($K==$ENDRANGE) {
-        print "Legend: SFI src file idx, ALEN aln length, SCORE aln score, IDEN identical bases, IPT percent iden, SIM similar bases, GAPS num gaps, GPT gap percent\n";
-        print "\tTSC target start query, TEC target end coord, PET percent of target, QSC Query start coord, QEC query end coord, QLN query aln length, PEQ percent of query\n";
+        print "Legend:\n";
+		print "QN Query name/ ALEN alignment length / SCORE alignment score / IDEN # identical bases / IPT %identity over alnlen / SIM similar bases / GAPS #gaps, GPT %gap\n";
+        print "TSC target start coord / TEC target end coord / PET %target in aln / QSC Query start coord / QEC query end coord / QLN query aln length / PEQ %query in aln\n";
+		print "SIM and IDEN the same in DNA, may be different in proteins.";
     }
 	# stpt($TSZ, \@TAAS);
 }
